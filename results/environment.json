@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "tree-sitter": "0.26.1",
+    "tree-sitter-c": "0.24.2",
+    "tree-sitter-cpp": "0.23.4",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "ijson": "3.6.0",
+    "joblib": "1.6.0"
+  },
+  "differencer": "gumtree",
+  "megavul_sha256": "eabe8d3325be358d7a93327e3ae4f001725517a0067c4d80198f89904177419f",
+  "megavul_megabytes": 2668.8,
+  "gumtree": "4.1.0",
+  "gumtree_matcher": "gumtree-simple",
+  "gumtree_parameters": "defaults of the release, no overrides",
+  "gumtree_jar_sha256": "bb4af175816460215ad47179478c093fc92bfdfd88ab47b9227e836990f996e7",
+  "java": "openjdk version \"17.0.20.1\" 2026-08-18 LTS"
+}

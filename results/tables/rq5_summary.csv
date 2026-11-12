@@ -1,0 +1,6 @@
+,c,cpp
+commits with at least two change types,4577,1052
+of which single-function commits,2471,531
+type pairs tested,1780,380
+co-occurring more than expected,988,212
+and also in single-function commits,256,15

@@ -1,0 +1,7 @@
+lang,algorithm,proportion of pairs with an inaccurate mapping,pairs flagged,pairs
+c,gumtree-classic,0.268,293,1094
+c,gumtree-simple,0.14,153,1094
+c,ours,0.154,168,1094
+cpp,gumtree-classic,0.226,242,1069
+cpp,gumtree-simple,0.147,157,1069
+cpp,ours,0.167,178,1069

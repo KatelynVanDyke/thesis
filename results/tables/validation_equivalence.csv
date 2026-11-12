@@ -1,0 +1,7 @@
+,c,cpp
+pairs,100.0,100.0
+identical edit script,0.87,0.72
+actions: own matcher,338.0,490.0
+actions: GumTree,341.0,547.0
+"actions in common, share of own matcher's",0.92,0.745
+GumTree nodes not found in our trees,0.0082,0.0085

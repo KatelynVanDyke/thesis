@@ -1,0 +1,2 @@
+CWE,change type,commits of the CWE,with the type,proportion in the CWE,proportion elsewhere,p,top project share,difference,q
+CWE-476,INSERT_if_statement_compound_statement,113,67,0.5929,0.4404,0.0012,0.3731,0.1525,0.0383

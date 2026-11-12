@@ -1,0 +1,16 @@
+change type,C,C++,difference (C++ - C),commits in C,commits in C++,p,q
+INSERT_declaration_compound_statement,0.1588,0.2426,0.0838,1174,402,0.0,0.0
+UPDATE_identifier_call_expression,0.1084,0.0628,-0.0456,801,104,0.0,0.0
+INSERT_call_expression_argument_list,0.0097,0.0537,0.044,72,89,0.0,0.0
+INSERT_if_statement_compound_statement,0.4069,0.4508,0.0439,3008,747,0.0011,0.0037
+UPDATE_field_identifier_field_expression,0.0147,0.0549,0.0402,109,91,0.0,0.0
+MOVE_declaration_compound_statement,0.0173,0.0507,0.0334,128,84,0.0,0.0
+UPDATE_identifier_field_expression,0.0062,0.0362,0.03,46,60,0.0,0.0
+INSERT_identifier_call_expression,0.0015,0.0314,0.0299,11,52,0.0,0.0
+UPDATE_identifier_init_declarator,0.0038,0.0314,0.0276,28,52,0.0,0.0
+DELETE_identifier_call_expression,0.0,0.0266,0.0266,0,44,0.0,0.0
+MOVE_expression_statement_compound_statement,0.087,0.0616,-0.0254,643,102,0.0005,0.002
+INSERT_field_initializer_field_initializer_list,0.0,0.0253,0.0253,0,42,0.0,0.0
+INSERT_labeled_statement_compound_statement,0.0252,0.0,-0.0252,186,0,0.0,0.0
+INSERT_compound_statement_if_statement,0.0768,0.0525,-0.0243,568,87,0.0004,0.0016
+DELETE_field_expression_call_expression,0.0,0.0241,0.0241,0,40,0.0,0.0

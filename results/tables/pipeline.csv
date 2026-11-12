@@ -1,0 +1,12 @@
+,c,cpp
+function pairs,13853.0,3385.0
+matched by GumTree,13853.0,3385.0
+no edit actions,414.0,50.0
+function pairs analysed,13439.0,3335.0
+with parse errors,3392.0,313.0
+proportion without parse errors,0.755,0.908
+edit actions,61216.0,15775.0
+moves,14854.0,3595.0
+absorbed moves,11027.0,2748.0
+analysed actions,50189.0,13027.0
+analysed actions of type ERROR,116.0,39.0

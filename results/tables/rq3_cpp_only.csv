@@ -1,0 +1,5 @@
+,c,cpp
+actions,50189.0,13027.0
+actions touching a C++-only node type,0.0,683.0
+proportion of actions,0.0,0.0524
+proportion of commits with such an action,0.0,0.1447

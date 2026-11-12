@@ -1,0 +1,6 @@
+CWE,change_type,repo,commit,file,function,before,after
+CWE-674,INSERT_number_literal_argument_list,torvalds/linux,7690aa1cdf7c4565ad6b013b324c28b685505e24,lib/nlattr.c,__nla_parse,,0
+CWE-22,INSERT_if_statement_compound_statement,open-iscsi/tcmu-runner,2b16e96e6b63d0419d857f53e4cc67f0adb383fd,tcmur_cmd_handler.c,xcopy_parse_parameter_list,,"if (dev != xcopy->src_dev || dev != xcopy->dst_dev) { tcmu_dev_err(dev, ""Cross-d"
+CWE-193,UPDATE_operator_binary_expression,torvalds/linux,0031c41be5c529f8329e327b63cde92ba1284842,drivers/gpu/drm/radeon/radeon_atombios.c,radeon_atom_get_tv_timings,>,>=
+CWE-674,INSERT_parameter_declaration_parameter_list,krb5,57415dda6cf04e73ffc3723be518eddfae599bfd,src/lib/krb5/asn.1/asn1_encode.c,get_tag,,int recursion
+CWE-59,INSERT_parameter_declaration_parameter_list,libarchive,fba4f123cc456d2b2538f811bb831483bf336bad,libarchive/archive_disk_acl_linux.c,set_acl,,__LA_MODE_T mode

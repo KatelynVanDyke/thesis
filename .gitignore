@@ -6,6 +6,7 @@ data/*
 # and manual labels in results/ are committed.
 results/actions_*.csv
 results/features_*.csv
+results/change_frequency_*.jsonl
 results/pairs_*.csv
 
 # GumTree and its compiled driver, downloaded and built by the notebook

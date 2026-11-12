@@ -1,0 +1,62 @@
+language,change_type,repo,commit,file,function,before,after
+c,INSERT_if_statement_compound_statement,igrr/axtls-8266,5efe2947ab45e81d84b5f707c51d1c64be52f36c,ssl/x509.c,sig_verify,,if (sig_prefix) hash_len = sig_prefix[sig_prefix_size - 1];
+c,INSERT_if_statement_compound_statement,accel-ppp,e9d369aa0054312b7633e964e9f7eb323f1f3d69,accel-pppd/radius/packet.c,rad_packet_recv,,"if (2 + len > n) { log_ppp_warn(""radius:packet: too long vendor attribute receiv"
+c,INSERT_expression_statement_compound_statement,xen-project/xen,1cd3cc7ea27cda7640a8d895e09617b61c265697,tools/xenstore/xenstored_core.c,create_node,,"ret = write_node(conn, i, false);"
+c,INSERT_expression_statement_compound_statement,varnishcache/varnish-cache,9be22198e258d0e7a5c41f4291792214a29405cf,bin/varnishd/http2/cache_http2_proto.c,h2_end_headers,,req->htc->content_length = cl;
+c,INSERT_declaration_compound_statement,torvalds/linux,ce683e5f9d045e5d67d1312a42b359cb2ab2a13c,net/netfilter/x_tables.c,xt_compat_check_entry_offsets,,long size_of_base_struct = elems - (const char *)base;
+c,INSERT_declaration_compound_statement,wireshark,0f27a83c5692b2afebe6e6934c1051f76aa2ecf9,epan/dissectors/packet-f5ethtrailer.c,dissect_old_trailer,,"guint8 ver = tvb_get_guint8(tvb, offset + F5_OFF_VERSION);"
+c,DELETE_expression_statement_compound_statement,php/php-src,25e8fcc88fa20dc9d4c47184471003f436927cde,ext/session/mod_files.c,ps_files_open,PS(invalid_session_id) = 1;,
+c,DELETE_expression_statement_compound_statement,gstreamer/gst-plugins-base,566583e87147f774e7fc4c78b5f7e61d427e40a9,gst-libs/gst/tag/gstvorbistag.c,gst_vorbis_tag_add_coverart,img_data = g_try_malloc0 (base64_len * 3 / 4);,
+c,UPDATE_identifier_call_expression,nginx/njs,1f4c515f74a71df9d0a40bb786cce7467f0a904e,njs/njs_date.c,njs_date_prototype_to_json,njs_function_apply,njs_function_replace
+c,UPDATE_identifier_call_expression,the-tcpdump-group/tcpdump,c2ef693866beae071a24b45c49f9674af1df4028,print-isakmp.c,ikev1_n_print,ikev1_sub_print,rawprint
+c,INSERT_binary_expression_parenthesized_expression,xorg/lib/libXpm,d1167418f0fd02a27f617ec5afd6db053afbe185,src/CrDatFrI.c,XpmCreateDataFromXpmImage,,image->height > UINT_MAX - ext_nlines || image->height + ext_nlines >= UINT_MAX 
+c,INSERT_binary_expression_parenthesized_expression,GNOME/libsoup,db2b0d5809d5f8226d47312b40992cadbcde439f,libsoup/soup-cookie-jar.c,get_cookies,,!uri->host || !uri->host[0]
+c,MOVE_expression_statement_compound_statement,xorg/xserver,0c1a93d319558fe3ab2d94f51d174b4f93810afd,Xi/exevents.c,DeepCopyPointerClasses,to->button->sourceid = from->id;,to->button->sourceid = from->id;
+c,MOVE_expression_statement_compound_statement,ImageMagick/ImageMagick6,553054c1cb1e4e05ec86237afef76a32cd7c464d,magick/quantum-export.c,ExportIndexQuantum,pixel=(unsigned char) *indexes++;,pixel=(unsigned char) ((ssize_t) *indexes++);
+c,DELETE_if_statement_compound_statement,apache/httpd,db81019ab88734ed35fa70294a0cfa7a19743f73,server/request.c,ap_process_request_internal,if (r->prev && (r->prev->per_dir_config == r->per_dir_config)) { r->user = r->pr,
+c,DELETE_if_statement_compound_statement,torvalds/linux,532c34b5fbf1687df63b3fcd5b2846312ac943c6,drivers/s390/char/sclp_ctl.c,sclp_ctl_ioctl_sccb,"if (copy_from_user(sccb, u64_to_uptr(ctl_sccb.sccb), sizeof(*sccb))) { rc = -EFA",
+c,INSERT_compound_statement_if_statement,ImageMagick,216d117f05bff87b9dc4db55a1b1fadb38bcb786,coders/xbm.c,ReadXBMImage,,{ data=(unsigned char *) RelinquishMagickMemory(data); ThrowReaderException(Corr
+c,INSERT_compound_statement_if_statement,the-tcpdump-group/tcpdump,c2ef693866beae071a24b45c49f9674af1df4028,print-isakmp.c,ikev2_n_print,,"{ if (ndo->ndo_vflag > 3 || (showsomedata && ep-cp < 30)) { ND_PRINT((ndo,"" data"
+c,UPDATE_operator_binary_expression,the-tcpdump-group/tcpdump,c2ef693866beae071a24b45c49f9674af1df4028,print-isakmp.c,ikev1_nonce_print,<,>
+c,UPDATE_operator_binary_expression,the-tcpdump-group/tcpdump,c177cb3800a9a68d79b2812f0ffcb9479abd6eb8,print-isoclns.c,esis_print,==,!=
+c,INSERT_identifier_argument_list,wireshark,693dc40936a9eeac0e1c10ff496b3d327e25642b,epan/dissectors/packet-geonw.c,dissect_geonw,,SEC_TVB_KEY
+c,INSERT_identifier_argument_list,wireshark,0b89174ef4c531a1917437fff586fe525ee7bf2d,epan/dissectors/packet-iax2.c,iax2_add_ts_fields,,tvb
+c,DELETE_declaration_compound_statement,libgd,a49feeae76d41959d85ee733925a4cf40bac61b2,src/gd_webp.c,gdImageWebpCtx,uint8_t *out;,
+c,DELETE_declaration_compound_statement,the-tcpdump-group/tcpdump,e942fb84fbe3a73a98a00d2a279425872b5fb9d2,print-ripng.c,ripng_print,int trunc;,
+c,MOVE_if_statement_compound_statement,ffmpeg,c0cbe36b18ab3eb13a53fe684ec1f63a00df2c86,libavcodec/vmdav.c,vmd_decode,if (ofs + len + 1 > frame_width) return;,if (ofs + len + 1 > frame_width || !s->prev_frame.data[0]) return;
+c,MOVE_if_statement_compound_statement,openssl,96db9023b881d7cd9f379b0c154650d6c108e9a3,ssl/t1_lib.c,tls1_process_heartbeat,"if (s->msg_callback) s->msg_callback(0, s->version, TLS1_RT_HEARTBEAT, &s->s3->r","if (s->msg_callback) s->msg_callback(0, s->version, TLS1_RT_HEARTBEAT, &s->s3->r"
+c,INSERT_binary_expression_binary_expression,freetype/freetype2,677ddf4f1dc1b36cef7c7ddd59a14c508f4b1891,src/sfnt/ttload.c,check_table_dir,,table.Offset > stream->size - table.Length
+c,INSERT_binary_expression_binary_expression,torvalds/linux,5e739d1752aca4e8f3e794d431503bfca3162df4,net/sctp/socket.c,sctp_getsockopt_hmac_ident,,sizeof(struct sctp_hmacalgo) + data_len
+c,DELETE_identifier_argument_list,gpac,ea1eca00fd92fa17f0e25ac25652622924a9a6a0,src/filters/dasher.c,dasher_get_content_protection_desc,size_64,
+c,DELETE_identifier_argument_list,torvalds/linux,9a5467bf7b6e9e02ec9c3da4e23747c05faeaac6,crypto/aead.c,crypto_nivaead_report,CRYPTO_MAX_ALG_NAME,
+cpp,INSERT_if_statement_compound_statement,chromium,f6205c925db9508cb21c98cf7488eb785e08ff0b,sandbox/linux/seccomp-bpf/codegen.cc,PointerCompare,,if (iter2 == insns2.end()) { // If the two blocks are the same length (and have 
+cpp,INSERT_if_statement_compound_statement,ros/ros_comm,3dd308911d7294bc6cff12f626b8467fe1555423,utilities/xmlrpcpp/src/XmlRpcSocket.cpp,XmlRpcSocket::nbWrite,,"if (s.length() > size_t(__INT_MAX__)) { XmlRpcUtil::error(""XmlRpcSocket::nbWrite"
+cpp,INSERT_expression_statement_compound_statement,opencv,321c74ccd6077bdea1d47450ca4fe955cb5b6330,modules/objdetect/src/cascadedetect.cpp,CascadeClassifierImpl::Data::read,,"CV_CheckLE(origWinSize.width, 1000000, ""Invalid window size (too large)"");"
+cpp,INSERT_expression_statement_compound_statement,michaelrsweet/htmldoc,369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc,htmldoc/image.cxx,image_load_jpeg,,jpeg_std_error(&jerr.jerr);
+cpp,INSERT_declaration_compound_statement,chromium,6282934a62f7b1416b677acad89a2880f2de201c,third_party/WebKit/Source/core/frame/csp/CSPSource.cpp,CSPSource::hostMatches,,"bool equalHosts = equalIgnoringCase(host, m_host);"
+cpp,INSERT_declaration_compound_statement,fish-shell,ba1b5e34a77369e28ff563e47c088c55664a8a11,env_universal.cpp,try_get_socket_once,,uid_t seuid;
+cpp,DELETE_expression_statement_compound_statement,lavv17/lftp,a27e07d90a4608ceaf928b1babb27d4d803e1992,src/MirrorJob.cc,MirrorJob::Do,"args->setarg(0,""rmdir"");",
+cpp,DELETE_expression_statement_compound_statement,pdfium,b9882f4fbcc5f6a9cea49f5c2ec6b91aafac1032,core/src/fxcodec/codec/fx_codec_jpx_opj.cpp,sycc422_to_rgb,img->comps[2].h = (OPJ_UINT32)maxh;,
+cpp,INSERT_identifier_argument_list,poppler,7b2d314a61fd0e12f47c62996cb49ec0d1ba747a,poppler/GfxState.cc,GfxIndexedColorSpace::getRGBLine,,n
+cpp,INSERT_identifier_argument_list,tensorflow,c4d7afb6a5986b04505aca4466ae1951686c80f6,tensorflow/core/kernels/ragged_tensor_to_tensor_op.cc,CalculateOutputIndex,,output_index_multiplier
+cpp,INSERT_binary_expression_condition_clause,chromium,aca6327545556b90a9efe385594e38b8fc9530b4,third_party/WebKit/Source/core/dom/StyleSheetCollection.cpp,StyleSheetCollection::collectStyleSheets,,n->nodeType() == Node::PROCESSING_INSTRUCTION_NODE && !document()->isHTMLDocumen
+cpp,INSERT_binary_expression_condition_clause,Fluorohydride/ygopro,3587d3bc009ea28eab68cb9ba86a442a4f3c7a3f,gframe/single_duel.cpp,SingleDuel::UpdateDeck,,(unsigned)mainc > possibleMaxLength || (unsigned)sidec > possibleMaxLength || (u
+cpp,DELETE_declaration_compound_statement,android,ca8ac8acdad662230ae37998c6c4091bb39402b6,libs/minikin/CmapCoverage.cpp,CmapCoverage::getCoverage,int bestTable = -1;,
+cpp,DELETE_declaration_compound_statement,stepmania,8490d181c2d301ccca0dc6ee52f25bbadb567a9a,src/arch/MemoryCard/MemoryCardDriverThreaded_Linux.cpp,MemoryCardDriverThreaded_Linux::GetUSBStorageDevices,"RString fn = ""/rootfs/etc/fstab"";",
+cpp,UPDATE_operator_binary_expression,aawc/unrar,0ff832d31470471803b175cfff4e40c1b08ee779,unicode.cpp,CharToWideMap,==,||
+cpp,UPDATE_operator_binary_expression,tensorflow,ee50d1e00f81f62a4517453f721c634bbb478307,tensorflow/core/kernels/fractional_avg_pool_op.cc,FractionalAvgPoolOp,||,&&
+cpp,DELETE_if_statement_compound_statement,facebook/hhvm,95f96e7287effe2fcdfb9a5338d1a7e4f55b083b,hphp/runtime/ext/ext_simplexml.cpp,f_libxml_disable_entity_loader,if (disable) { old = xmlParserInputBufferCreateFilenameDefault(hphp_libxml_input,
+cpp,DELETE_if_statement_compound_statement,chromium,43ea0649d4b70fdcf3e9fa5c03aee1bbba0b04bb,third_party/WebKit/Source/core/html/ImageDocument.cpp,ImageDocument::createDocumentStructure,if (frame()) frame()->loader().client()->dispatchWillInsertBody();,
+cpp,UPDATE_identifier_call_expression,android,495417bd068c35de0729d9a332639bd0699153ff,system/stack/btm/btm_ble.cc,BTM_BleVerifySignature,memcmp,CRYPTO_memcmp
+cpp,UPDATE_identifier_call_expression,tensorflow,c2426bba00a01de6913738df8fa78e0215fcce02,tensorflow/core/framework/attr_value_util.cc,TensorByteSize,TensorShape,PartialTensorShape
+cpp,MOVE_expression_statement_compound_statement,LibreOffice/core,6e6e54f944a5ebb49e9110bdeff844d00a96c56c,vcl/source/filter/jpeg/jpegc.cxx,ReadJPEG,jpeg_start_decompress( &cinfo );,jpeg_start_decompress(&cinfo);
+cpp,MOVE_expression_statement_compound_statement,YanVugenfirer/kvm-guest-drivers-windows,fbfa4d1083ea84c5429992ca3e996d7d4fbc8238,NetKVM/Common/sw-offload.cpp,"tTcpIpPacketParsingResult
+ProcessTCPHeader",res.xxpStatus = ppresXxpIncomplete;,res.xxpStatus = ppresXxpIncomplete;
+cpp,UPDATE_field_identifier_field_expression,chromium,e0dd9f840b3a21cd12bd3d83f5ca63302549dd21,content/renderer/media/canvas_capture_handler.cc,CopyAlphaChannelIntoVideoFrame,data,visible_data
+cpp,UPDATE_field_identifier_field_expression,facebook/hermes,a00d237346894c6067a594983be6634f4168c9ad,lib/VM/JSLib/HermesBuiltin.cpp,copyDataPropertiesSlowPath_RJS,isProxyObject,isHostObject
+cpp,INSERT_call_expression_argument_list,arangodb,e9c6ee9dcca7b9b4fbcd02a0b323d205bee838d3,arangod/GeneralServer/AuthenticationFeature.cpp,AuthenticationFeature::collectOptions,,"arangodb::options::makeFlags( arangodb::options::Flags::DefaultNoComponents, ara"
+cpp,INSERT_call_expression_argument_list,chromium,2400ef7b592c31c9883fd1cd60bdea0622e69db3,third_party/WebKit/Source/bindings/core/v8/SerializedScriptValue.cpp,SerializedScriptValue::transferArrayBuffers,,arrayBuffers[i]->buffer()->byteLength()
+cpp,DELETE_identifier_argument_list,MapServer,3d52307cf0033e3275975b668b7138ba1343f28d,mapogr.cpp,msOGRFileNextShape,MS_OGRERR,
+cpp,DELETE_identifier_argument_list,ompl,abb4fadcb4e4fe4c9cf41e5e7706143a66948eb7,src/ompl/geometric/planners/rrt/src/VFRRT.cpp,ompl::geometric::VFRRT::extendTree,si_,
+cpp,INSERT_compound_statement_if_statement,poppler,591235c8b6c65a2eee88991b9ae73490fd9afdfe,poppler/Outline.cc,OutlineItem::open,,{ Object itemDict = xref->fetch(ref); if (itemDict.isDict()) { const Object &fir
+cpp,INSERT_compound_statement_if_statement,chromium,ad6d56fe76a49244896156182c30d8e9ff3afbf2,third_party/WebKit/Source/core/html/parser/HTMLConstructionSite.cpp,executeReparentTask,,{ ScriptForbiddenScope forbidScript; parent->parserRemoveChild(*task.child); }

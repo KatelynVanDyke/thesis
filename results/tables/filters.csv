@@ -1,0 +1,6 @@
+,records
+not a vulnerable function,335898
+header or unknown extension,417
+identical function pair in another commit,320
+kept: C function pairs,13853
+kept: C++ function pairs,3385

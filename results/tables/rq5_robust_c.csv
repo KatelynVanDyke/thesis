@@ -1,0 +1,16 @@
+type A,type B,commits with both,lift,p,q,lift: single-function
+DELETE_return_statement_compound_statement,INSERT_goto_statement_compound_statement,39,30.255,0.0,0.0,30.566
+DELETE_call_expression_expression_statement,INSERT_assignment_expression_expression_statement,73,23.761,0.0,0.0,35.763
+DELETE_return_statement_if_statement,INSERT_goto_statement_if_statement,35,23.096,0.0,0.0,26.011
+INSERT_goto_statement_if_statement,INSERT_labeled_statement_compound_statement,50,18.094,0.0,0.0,21.18
+INSERT_goto_statement_compound_statement,INSERT_labeled_statement_compound_statement,41,17.1,0.0,0.0,16.302
+DELETE_identifier_declaration,INSERT_init_declarator_declaration,77,15.751,0.0,0.0,15.572
+MOVE_binary_expression_binary_expression,MOVE_operator_binary_expression,35,15.56,0.0,0.0,12.035
+DELETE_identifier_assignment_expression,INSERT_binary_expression_assignment_expression,27,15.187,0.0,0.0,19.37
+DELETE_init_declarator_declaration,INSERT_identifier_declaration,58,13.007,0.0,0.0,15.639
+DELETE_binary_expression_assignment_expression,UPDATE_operator_assignment_expression,13,11.977,0.0,0.0,17.124
+DELETE_binary_expression_binary_expression,MOVE_binary_expression_binary_expression,22,11.819,0.0,0.0,10.679
+DELETE_field_expression_binary_expression,INSERT_identifier_binary_expression,51,11.461,0.0,0.0,12.061
+DELETE_binary_expression_binary_expression,INSERT_number_literal_binary_expression,20,11.218,0.0,0.0,12.87
+INSERT_number_literal_binary_expression,MOVE_operator_binary_expression,24,11.141,0.0,0.0,11.341
+DELETE_compound_statement_if_statement,INSERT_goto_statement_if_statement,21,11.13,0.0,0.0,18.731

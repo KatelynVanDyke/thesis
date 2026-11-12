@@ -1,0 +1,2 @@
+CWE,change_type,repo,commit,file,function,before,after
+CWE-476,INSERT_if_statement_compound_statement,opencv,5691d998ead1d9b0542bcfced36c2dceb3a59023,modules/core/src/persistence_yml.cpp,parseValue,,"if (!ptr) CV_PARSE_ERROR_CPP(""Invalid input"");"

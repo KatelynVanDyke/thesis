@@ -1,0 +1,12 @@
+,c,cpp
+function pairs,13853.0,3385.0
+commits,7429.0,1683.0
+repositories,786.0,283.0
+CVEs,6842.0,1526.0
+CWE types,155.0,118.0
+median functions per commit,1.0,1.0
+90th percentile,3.0,4.0
+maximum,33.0,22.0
+single-function commits,0.675,0.641
+held-out commits,1650.0,174.0
+held-out repositories,157.0,57.0

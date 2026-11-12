@@ -1,0 +1,7 @@
+language,minimum commits,change types,fallback types,"actions, training fold","actions, held-out fold","coverage, training fold","coverage, held-out fold, fine types only","coverage, held-out fold"
+c,5,380.0,139.0,39902.0,10287.0,0.9962,0.943,0.9949
+c,10,247.0,117.0,39902.0,10287.0,0.9891,0.9118,0.9849
+c,30,126.0,83.0,39902.0,10287.0,0.964,0.8311,0.9446
+cpp,5,188.0,110.0,11442.0,1585.0,0.974,0.8644,0.9508
+cpp,10,115.0,80.0,11442.0,1585.0,0.9439,0.8088,0.9312
+cpp,30,39.0,38.0,11442.0,1585.0,0.829,0.6252,0.7975
