@@ -1,0 +1,4 @@
+,C training commits used,"coverage, held-out C","coverage, held-out C, fine types only"
+mean,1500.0,0.9332,0.8067
+min,1500.0,0.9252,0.7962
+max,1500.0,0.9424,0.8219

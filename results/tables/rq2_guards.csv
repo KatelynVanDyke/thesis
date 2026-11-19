@@ -1,0 +1,5 @@
+,c,cpp
+inserted if statements,5162.0,1414.0
+exit or error in text,0.591,0.569
+comparison or negation in condition,0.825,0.827
+text truncated at 80 characters,0.475,0.552

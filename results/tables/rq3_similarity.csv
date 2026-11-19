@@ -1,0 +1,9 @@
+,value
+Pearson,0.9587
+Spearman,0.4027
+C taxonomy on held-out C++,0.9338
+C++ taxonomy on held-out C++,0.9312
+C++-only node types among unclassified held-out actions,0.2202
+C++-only node types among classified held-out actions,0.0461
+C++ commits inserting a labeled statement,2.0
+C++ commits with a goto statement,3.0
